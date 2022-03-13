@@ -13,10 +13,37 @@ p, h1{
     opacity: 0.5;
     padding: 15px;
 }
+ul{
+    list-style: none;
+    text-align: center;;
+}
+
+li{
+    margin: 15px;
+}
+.itens::before{
+    content: "✵";
+    color: rgb(155, 129, 12);
+}
 
 img{
     max-width: 100%;
     display: block;
+}
+
+div > p{
+    text-align: center;
+}
+
+.img-redes{
+    width: 20%;
+	transition: 1s all;
+	cursor: pointer;
+    margin: 0 auto;
+    padding: 5%;
+}
+.img-redes:hover{
+	transform: scale(1.15);
 }
 
 .container1{
